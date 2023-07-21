@@ -44,3 +44,29 @@
     font-weight: 400;
     font-size: 14px;
 }
+
+.locations:hover .popover, .amenities:hover .popover {
+    display: block;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+  }
+
+.popover {
+    display: none;
+    list-style: none;
+    padding: 24px 0 24px 30px;
+}
+
+.popover ul {
+    list-style: none;
+    padding: 0 12px 12px 12px;
+}
+
+.popover h2 {
+    font-size: 16px;
+}
+
+.amenities .popover li {
+    padding-bottom: 12px;
+}
